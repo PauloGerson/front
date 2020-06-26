@@ -1,16 +1,30 @@
 
 
-html body
+html, body, h1
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Questrial",sans-serif;
+    font-weight: 400;
 
 }
-#page-home
-{
 
-      
+#page-home header h1{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;    
+    color: #e74c3c;
+    font-size: 30px; 
+    background: url('/IMG/icone.png') no-repeat;
+}
+#page-home header a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    margin-right: 2px;
 }
 
 #page-home .content
@@ -18,29 +32,28 @@ html body
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+    
 }
 
 #page-home header
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.container {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-gap: 20;
-   grid-row-gap: 10px;
-   
-   
+{   
+    background-color:black;
+    margin-bottom: 10px;
+    
 }
 
+#page-home .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-row-gap: 10px; 
+  
+}
+
+
 .poster
-{
-   
+{ 
     width: 200px;
-    margin: 0 auto;
- 
+    margin: 0 auto; 
     border:  1px solid black;
     flex-grow: 0;
     flex-shrink: 1;
@@ -60,5 +73,13 @@ html body
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+
+}
+@media(max-width: 850px){
+   #page-home .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 10px;
     }
 }
