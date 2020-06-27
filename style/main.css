@@ -76,6 +76,7 @@ html, body, h1
     {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
     }
 
 }
@@ -83,12 +84,13 @@ html, body, h1
    #page-home .container{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        margin-left: 10px;
+        overflow: hidden;
     }
-    @media (max-width:446px) {
+    @media (max-width: 446px) {
         #page-home .container{
             display: grid;
             grid-template-columns: 1fr;
+            overflow: hidden;
         }
     }
 }
