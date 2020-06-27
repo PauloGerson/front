@@ -46,7 +46,7 @@
         #page-home .container{
             display: grid;
             grid-template-columns: 1fr;
-            overflow: hidden;
+            
         }
         #page-home header  h1{
         display: inline;

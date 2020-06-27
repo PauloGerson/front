@@ -1,4 +1,15 @@
-
+@font-face
+{
+    src: url(/fonts/MuseoModerno-VariableFont_wght.ttf);
+    font-family: 'MoseoModerno';
+    font-weight: normal;
+}
+@font-face
+{
+    src: url(/fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
 html, body, h1
 {
     margin: 0;
@@ -6,7 +17,6 @@ html, body, h1
     box-sizing: border-box;
    
     font-weight: 400;
-
 }
 
 #page-home header h1{
@@ -16,8 +26,8 @@ html, body, h1
     position: relative;
     left: 17%;
     margin-left: 12px; 
-    font-family: 'MuseoModerno', cursive;
-    
+    font-family: 'MoseoModerno';
+   
 }
 #page-home header
 {   
@@ -42,7 +52,8 @@ i{
     text-align: center;
     padding: 12px;
     list-style-type: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+   
 }
 .navegacao li a{  
     text-decoration: none;
