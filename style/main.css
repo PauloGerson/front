@@ -1,5 +1,4 @@
 
-
 html, body, h1
 {
     margin: 0;
@@ -11,20 +10,23 @@ html, body, h1
 }
 
 #page-home header h1{
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-end;    
+    display: inline;
     color: #e74c3c;
-    font-size: 30px; 
-    background: url('/IMG/icone.png') no-repeat;
+    font-size: 30px;
+    z-index: 1;
+    margin-left: 12px; 
 }
-#page-home header a{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+#page-home header .logo{
+ 
+}
+#page-home header .link{
+    float: right;
+    margin-top: 12px;
     text-decoration: none;
     color: white;
     margin-right: 2px;
+
+   
 }
 
 #page-home .content
@@ -39,6 +41,7 @@ html, body, h1
 {   
     background-color:black;
     margin-bottom: 10px;
+    padding-bottom: 12px;
     
 }
 
