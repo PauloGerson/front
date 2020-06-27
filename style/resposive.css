@@ -19,8 +19,6 @@
         overflow: hidden;
     }
 
-
-
 }
 @media (max-width:728px){
     #page-home header h1{
@@ -28,17 +26,17 @@
         left:45%;
     }
     .navegacao li{
-        display: none;
+         display: none;
     }
 }
 @media(max-width: 625px){
    #page-home .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            overflow: hidden;
     }
     #page-home header h1{
-        display: flex;
+            display: flex;
        
     }
 }
@@ -49,10 +47,8 @@
             
         }
         #page-home header  h1{
-        display: inline;
-        left: 35%;
-        
-        
+            display: inline;
+            left: 35%;    
         }
         #page-home header .link{
             float: right;
