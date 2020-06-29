@@ -1,9 +1,9 @@
-@font-face
-{
-    src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
-    font-family: 'MoseoModerno';
+@font-face {
+    src: url(../fonts/Poppins-Black.ttf);
+    font-family: 'Poppins';
     font-weight: normal;
 }
+
 @font-face
 {
     src: url(../fonts/Roboto-Regular.ttf);
@@ -26,7 +26,7 @@ html, body, h1
     position: relative;
     left: 17%;
     margin-left: 12px; 
-    font-family: 'MoseoModerno',sans-serif;
+    font-family: 'Poppins';
    
 }
 #page-home header

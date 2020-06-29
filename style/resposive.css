@@ -1,7 +1,7 @@
 @font-face {
-    src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
-    font-family: 'MoseoModerno';
-    font-weight: normal;
+    src: url(../fonts/Poppins-Black.ttf);
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
 @font-face {
@@ -60,26 +60,18 @@
 }
 
 @media (max-width: 446px) {
-    @font-face {
-        src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
-        font-family: 'MoseoModerno';
-        font-weight: normal;
-    }
-    @font-face {
-        src: url(../fonts/Roboto-Regular.ttf);
-        font-family: 'Roboto', sans-serif;
-        font-weight: normal;
-    }
+ 
     body {
-        background-color: tan;
-        font-family: 'MoseoModerno';
+    background-color: tan;
+    font-family: 'Poppins';
+    
     }
     #page-home .container {
         display: grid;
         grid-template-columns: 1fr;
     }
     #page-home header h1 {
-        font-family: 'MoseoModerno';
+        font-family: 'Poppins';
         display: inline;
         left: 35%;
     }
