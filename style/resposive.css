@@ -1,87 +1,93 @@
-@font-face
-{
+@font-face {
     src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
     font-family: 'MoseoModerno';
     font-weight: normal;
 }
-@font-face
-{
+
+@font-face {
     src: url(../fonts/Roboto-Regular.ttf);
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
 
-@media(max-width: 1024px)
-{
-    body{
+@media(max-width: 1024px) {
+    body {
         background-color: red;
     }
-    .poster{
+    .poster {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
 }
 
-@media (max-width:828px){
-    body{
+@media (max-width:828px) {
+    body {
         background-color: yellow;
     }
-    #page-home .container
-    {
+    #page-home .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         overflow: hidden;
     }
-
 }
-@media (max-width:728px){
-    body{
+
+@media (max-width:728px) {
+    body {
         background-color: blue;
     }
-    #page-home header h1{
+    #page-home header h1 {
         display: flex;
-        left:45%;
+        left: 45%;
     }
-    .navegacao li{
-         display: none;
+    .navegacao li {
+        display: none;
     }
 }
-@media(max-width: 625px){
-    body{
+
+@media(max-width: 625px) {
+    body {
         background-color: green;
     }
-   #page-home .container{
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            overflow: hidden;
+    #page-home .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
     }
-    #page-home header h1{
-            display: flex;
-       
+    #page-home header h1 {
+        display: flex;
     }
 }
-    @media (max-width: 446px) {
-        body{
-            background-color: rebeccapurple;
-            font-family: 'MoseoModerno';
-        }
-        #page-home .container{
-            display: grid;
-            grid-template-columns: 1fr;
-            
-        }
-        #page-home header  h1{
-            font-family: 'MoseoModerno';
-            display: inline;
-            left: 35%;    
-        }
-        #page-home header .link{
-            float: right;
-            margin-top: 12px;
-            text-decoration: none;
-            color: white;
-            margin-right: 2px;
-        }
+
+@media (max-width: 446px) {
+    @font-face {
+        src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
+        font-family: 'MoseoModerno';
+        font-weight: normal;
     }
+    @font-face {
+        src: url(../fonts/Roboto-Regular.ttf);
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+    }
+    body {
+        background-color: rebeccapurple;
+        font-family: 'MoseoModerno';
+    }
+    #page-home .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #page-home header h1 {
+        font-family: 'MoseoModerno';
+        display: inline;
+        left: 35%;
+    }
+    #page-home header .link {
+        float: right;
+        margin-top: 12px;
+        text-decoration: none;
+        color: white;
+        margin-right: 2px;
+    }
+}
