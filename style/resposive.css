@@ -25,6 +25,9 @@
 }
 
 @media (max-width:828px){
+    body{
+        background-color: yellow;
+    }
     #page-home .container
     {
         display: grid;
@@ -34,6 +37,9 @@
 
 }
 @media (max-width:728px){
+    body{
+        background-color: blue;
+    }
     #page-home header h1{
         display: flex;
         left:45%;
@@ -43,6 +49,9 @@
     }
 }
 @media(max-width: 625px){
+    body{
+        background-color: green;
+    }
    #page-home .container{
             display: grid;
             grid-template-columns: 1fr 1fr ;
@@ -54,6 +63,9 @@
     }
 }
     @media (max-width: 446px) {
+        body{
+            background-color: rebeccapurple;
+        }
         #page-home .container{
             display: grid;
             grid-template-columns: 1fr;
