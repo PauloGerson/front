@@ -71,8 +71,8 @@
         font-weight: normal;
     }
     body {
-        background-color: tan;
-        font-family: 'MoseoModerno';
+        background-color: red;
+        
     }
     #page-home .container {
         display: grid;
