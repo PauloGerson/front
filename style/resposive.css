@@ -65,6 +65,7 @@
     @media (max-width: 446px) {
         body{
             background-color: rebeccapurple;
+            font-family: 'MoseoModerno';
         }
         #page-home .container{
             display: grid;
