@@ -1,7 +1,7 @@
 @font-face {
-    src: url(../fonts/Poppins-Black.ttf);
-    font-family: 'Poppins';
-    font-weight: normal;
+  src: url(../fonts/njnaruto.ttf);
+  font-family: 'njnaruto';
+  font-weight: normal;
 }
 
 @font-face
@@ -14,20 +14,24 @@ html, body, h1
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-   
+    box-sizing: border-box; 
     font-weight: 400;
+    
 }
 
 #page-home header h1{
     display: inline;  
-    color: red;
+    color:#f59c3d;
     font-size: 30px;
     position: relative;
     left: 17%;
     margin-left: 12px; 
-    font-family: 'Poppins';
-   
+    font-family: 'njnaruto';
+    -webkit-text-stroke-color: #fff; 
+    -webkit-text-stroke-width: 1px;
+}
+h1{
+    
 }
 #page-home header
 {   
@@ -68,7 +72,7 @@ i{
 }
 .poster
 { 
-    width: 200px;
+    width: 121px;
     margin: 0 auto; 
     border:  1px solid black;
     flex-grow: 0;

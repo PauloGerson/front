@@ -1,7 +1,7 @@
 @font-face {
-    src: url(../fonts/Poppins-Black.ttf);
-    font-family: 'Poppins';
-    font-weight: 400;
+    src: url(../fonts/njnaruto.ttf);
+    font-family: 'njnaruto';
+    font-weight: normal;
 }
 
 @font-face {
@@ -67,7 +67,7 @@
         grid-template-columns: 1fr;
     }
     #page-home header h1 {
-        font-family: 'Poppins';
+        font-family: 'njnaruto';
         display: inline;
         left: 35%;
     }
