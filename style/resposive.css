@@ -1,3 +1,16 @@
+@font-face
+{
+    src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
+    font-family: 'MoseoModerno';
+    font-weight: normal;
+}
+@font-face
+{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
 @media(max-width: 1024px)
 {
     body{
