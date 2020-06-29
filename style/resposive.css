@@ -61,11 +61,7 @@
 
 @media (max-width: 446px) {
  
-    body {
-    background-color: tan;
-    font-family: 'Poppins';
-    
-    }
+
     #page-home .container {
         display: grid;
         grid-template-columns: 1fr;
