@@ -1,82 +1,92 @@
 @font-face {
-  src: url(../fonts/njnaruto.ttf);
-  font-family: 'njnaruto';
-  font-weight: normal;
+    src: url(../fonts/njnaruto.ttf);
+    font-family: 'njnaruto';
+    font-weight: normal;
 }
 
-@font-face
-{
+@font-face {
     src: url(../fonts/Roboto-Regular.ttf);
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
-html, body, h1
-{
+
+html, body, h1 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-weight: 400;
-    
 }
 
-#page-home header h1{
-    display: inline;  
-    color:#f59c3d;
+#page-home header h1 {
+    display: inline;
+    color: #f59c3d;
     font-size: 30px;
     position: relative;
     left: 17%;
-    margin-left: 12px; 
+    margin-left: 12px;
     font-family: 'njnaruto';
-    -webkit-text-stroke-color: #fff; 
-    -webkit-text-stroke-width: 1px;
 }
-h1{
-    
-}
-#page-home header
-{   
-    background-color:black;
-    border-bottom:black 01px solid  ;
+
+#page-home header {
+    background-color: black;
+    border-bottom: black 01px solid;
     margin-bottom: 10px;
-    padding-bottom: 12px;    
+    padding-bottom: 12px;
 }
-i{
+
+i {
     color: white;
 }
-.navegacao{  
+
+.navegacao {
     display: inline;
-    color:white;
-    justify-content: center;  
+    color: white;
+    justify-content: center;
 }
+
 .navegacao li {
     display: inline;
     position: relative;
     left: 22%;
-    text-align: end;
-    text-align: center;
     padding: 12px;
     list-style-type: none;
-    font-family: 'Roboto', sans-serif; 
-   
+    font-family: 'Roboto', sans-serif;
 }
-.navegacao li a{  
+
+.navegacao li a {
     text-decoration: none;
     color: white;
 }
+
 #page-home .container {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-row-gap: 10px; 
-   overflow: hidden;
-  
-}
-.poster
-{ 
-    width: 121px;
-    margin: 0 auto; 
-    border:  1px solid black;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    overflow: hidden;
 }
 
+.icon-bar {
+    display: none;
+}
+.icon-pesq{
+    float: right;
+}
+
+.buscar {
+    float: right;
+    
+    
+}
+input .buscar
+{
+    background-color: white;
+}
+
+.poster {
+    width: 121px;
+    margin: 0 auto;
+    border: 1px solid black;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
