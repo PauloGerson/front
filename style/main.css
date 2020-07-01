@@ -22,9 +22,10 @@ html, body, h1 {
     color: #f59c3d;
     font-size: 30px;
     position: relative;
-    left: 17%;
-    margin-left: 12px;
+    left: 22%;
+    top: 1vh;
     font-family: 'njnaruto';
+
 }
 
 #page-home header {
@@ -68,20 +69,40 @@ i {
 .icon-bar {
     display: none;
 }
-.icon-pesq{
-    float: right;
-}
 
-.buscar {
-    float: right;
-    
-    
-}
-input .buscar
+.pesquisa
 {
-    background-color: white;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+  
 }
-
+#texto
+{
+    width: 150px;
+    height: 20px;
+    float: left;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;
+    border-radius: 40px;
+}
+.btn
+{
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+#text:focus{
+    border: solid 2px #1f4550;
+}
 .poster {
     width: 121px;
     margin: 0 auto;
