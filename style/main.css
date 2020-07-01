@@ -25,6 +25,7 @@ html, body, h1 {
     left: 22%;
     top: 1vh;
     font-family: 'njnaruto';
+    cursor: pointer;
 
 }
 
