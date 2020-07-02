@@ -16,6 +16,10 @@ html, body, h1 {
     box-sizing: border-box;
     font-weight: 400;
 }
+main
+{
+    margin-left: 0;
+}
 
 #page-home header h1 {
     display: inline;
@@ -36,9 +40,6 @@ html, body, h1 {
     padding-bottom: 12px;
 }
 
-i {
-    color: white;
-}
 
 .navegacao {
     display: inline;
@@ -71,6 +72,10 @@ i {
     display: none;
 }
 
+/* menu bar */
+i{
+    color: white;
+}
 .pesquisa
 {
     width: 100px;
@@ -81,7 +86,6 @@ i {
     margin-right: 10px;
     margin-top: 10px;
     float: right;
-  
 }
 #texto
 {
@@ -91,6 +95,9 @@ i {
     font-family: 'Poppins' , sans-serif;
     font-size: 12px;
     border-radius: 40px;
+    border: none;
+    outline: none;
+    
 }
 .btn
 {
@@ -99,16 +106,37 @@ i {
     padding: 0 5px;
     cursor: pointer;
     border-radius: 40px;
-   
 }
-#text:focus{
-    border: solid 2px #1f4550;
-}
+/* Main */
 .poster {
     width: 121px;
-    margin: 0 auto;
     border: 1px solid black;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
+    margin-left: 5px;    
 }
+
+.h1-home
+{
+    display: inline;
+    color: white; 
+    font-size: 17px;
+}
+.span-home
+{
+    color: white;
+    font-size: 12px;
+}
+.h1-home 
+{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 13px;
+    width: 12px;
+    padding-left: 2px;
+}
+.span-home
+{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;  
+    margin-left: 1px;
+    opacity: 0.4;
+}
+

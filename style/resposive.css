@@ -3,6 +3,12 @@
     font-family: 'njnaruto';
     font-weight: normal;
 }
+@font-face
+{
+    src: url('../fonts/Poppins-Light.ttf');
+    font-family: 'Poppins';
+    font-weight: 100;
+}
 
 @font-face {
     src: url(../fonts/Roboto-Regular.ttf);
@@ -76,7 +82,7 @@
 
 @media(max-width: 625px) {
     body {
-        background-color: green;
+        background-color:black;
     }
     
     #page-home .container {
@@ -94,7 +100,7 @@
 
     #page-home .container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     #page-home header h1 {
         font-family: 'njnaruto';
@@ -108,4 +114,28 @@
         color: white;
         margin-right: 2px;
     }
+    .item
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        margin:0;
+        width: 100px;
+    }
+    .poster{
+        width: 116px;
+    }
+    .calendar
+    {
+       color: white;
+       font-size: 20px;
+       font-family: 'Poppins';
+       margin: 5px;
+       border-left: red solid 3px;
+        
+    }
+     .sub-home
+   {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+   }
 }
