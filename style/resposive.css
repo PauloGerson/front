@@ -82,7 +82,7 @@
 
 @media(max-width: 625px) {
     body {
-        background-color:black;
+        background-color:rgb(32, 168, 105);
     }
     
     #page-home .container {
@@ -93,11 +93,37 @@
     #page-home header h1 {
        left: 29%;
     }
+    .calendar
+    {
+       color: white;
+       font-size: 20px;
+       font-family: 'Poppins';
+       margin: 5px;
+       border-left: red solid 3px;
+        
+    }
+    .item
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        margin:0;
+        width: 100px;  
+    }
+    .sub-home
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+ 
+
 }
 
 @media (max-width: 446px) {
  
-
+    body {
+        background-color:black;
+    }
     #page-home .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
