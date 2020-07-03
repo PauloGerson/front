@@ -34,7 +34,7 @@ main
 }
 
 #page-home header {
-    background-color: black;
+    background-color: #176285;
     border-bottom: black 01px solid;
     margin-bottom: 10px;
     padding-bottom: 12px;
@@ -139,4 +139,25 @@ i{
     margin-left: 1px;
     opacity: 0.4;
 }
-
+.calendar
+    {
+       color: white;
+       font-size: 20px;
+       font-family: 'Poppins';
+       margin: 5px;
+       border-left: red solid 3px;
+        
+    }
+    .item
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        margin-left:36px;
+        width: 100px;  
+    }
+    .sub-home
+    {
+        display: grid;
+        grid-template-columns: 132px 127px 20px;
+        margin-left: 37px;   
+    }
