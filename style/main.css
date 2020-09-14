@@ -16,9 +16,15 @@ html, body, h1 {
     box-sizing: border-box;
     font-weight: 400;
 }
+#page-home main
+{
+  max-width:  1200px;
+  align-items: center;
+  border: 1px white solid;
+}
 main
 {
-    margin-left: 0;
+
 }
 
 #page-home header h1 {
@@ -144,20 +150,20 @@ i{
        color: white;
        font-size: 20px;
        font-family: 'Poppins';
-       margin: 5px;
        border-left: red solid 3px;
         
     }
     .item
     {
         display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-columns:8vw 8vw 8vw 1fr;
         margin-left:36px;
         width: 100px;  
+        
     }
     .sub-home
     {
         display: grid;
-        grid-template-columns: 132px 127px 20px;
+        grid-template-columns: 155px 157px 20px;
         margin-left: 37px;   
     }

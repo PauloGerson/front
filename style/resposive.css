@@ -79,14 +79,14 @@ body{
         display: inline;
         margin-left: 2px;
         padding-right: 10px;
-        cursor: pointer;
-       
-        
+        cursor: pointer;   
     }
+
     #texto
     {
         display: none;
     }
+
     .calendar
     {
        color: white;
@@ -96,13 +96,16 @@ body{
        border-left: red solid 3px;
         
     }
+
     .item
     {
         display: grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
         margin-left:36px;
-        width: 100px;  
+        width: 100px; 
+        text-align: center; 
     }
+
     .sub-home
     {
         display: grid;
@@ -186,9 +189,12 @@ body{
     body {
         background-color:black;
     }
-    #page-home .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    .item-container
+    {
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+    
     }
     #page-home header h1 {
         font-family: 'njnaruto';
@@ -202,10 +208,11 @@ body{
         color: white;
         margin-right: 2px;
     }
+    
     .item
     {
         display: grid;
-        grid-template-columns:1fr 1fr 1fr ;
+        grid-template-columns:1fr 1fr ;
         margin-left: 4%;
         width: 100px;
     }
