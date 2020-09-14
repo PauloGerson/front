@@ -1,169 +1,92 @@
-@font-face {
-    src: url(../fonts/njnaruto.ttf);
-    font-family: 'njnaruto';
-    font-weight: normal;
-}
-
-@font-face {
-    src: url(../fonts/Roboto-Regular.ttf);
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-}
-
-html, body, h1 {
-    margin: 0;
+*{
     padding: 0;
-    box-sizing: border-box;
-    font-weight: 400;
+    margin: 0;
 }
-#page-home main
-{
-  max-width:  1200px;
-  align-items: center;
-  border: 1px white solid;
-}
-main
-{
-
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#a9ddd6,#9BA0BC);
+    
 }
 
-#page-home header h1 {
-    display: inline;
-    color: #f59c3d;
-    font-size: 30px;
-    position: relative;
-    left: 22%;
-    top: 1vh;
-    font-family: 'njnaruto';
-    cursor: pointer;
-
-}
-
-#page-home header {
-    background-color: #176285;
-    border-bottom: black 01px solid;
-    margin-bottom: 10px;
-    padding-bottom: 12px;
-}
-
-
-.navegacao {
-    display: inline;
-    color: white;
+.compras{  
+    border: 1px solid black;
+    width: 23vh;   
+    padding: 2%;
+    margin-left: 80vh;
+    align-items: flex-end;
+    margin-top: 40vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
 }
-
-.navegacao li {
-    display: inline;
-    position: relative;
-    left: 22%;
-    padding: 12px;
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
+input[type=text]{
+    margin-top: 5px;
+    height: 2vh;
+    width: 25vh;
+    width: 100%;
+    padding: 14px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #264653;
+    border-radius: 4px;
 }
 
-.navegacao li a {
-    text-decoration: none;
-    color: white;
-}
-
-#page-home .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 10px;
-    overflow: hidden;
-}
-
-.icon-bar {
-    display: none;
-}
-
-/* menu bar */
-i{
-    color: white;
-}
-.pesquisa
-{
-    width: 100px;
-    height: 40px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-    margin-top: 10px;
-    float: right;
-}
-#texto
-{
-    width: 150px;
-    height: 20px;
-    float: left;
-    font-family: 'Poppins' , sans-serif;
-    font-size: 12px;
-    border-radius: 40px;
+#quantidade{
+    width: 25vh;
     border: none;
-    outline: none;
-    
+    border: 1px solid #264653;
+    padding: 4px ;
+    background-color: #f1f1f1;
+    border-radius: 4px;
 }
 .btn
 {
-    width: 20px;
-    height: 20px;
-    padding: 0 5px;
-    cursor: pointer;
-    border-radius: 40px;
-}
-/* Main */
-.poster {
-    width: 121px;
-    border: 1px solid black;
-    margin-left: 5px;    
+    margin-top: 10px;
+
 }
 
-.h1-home
+button:nth-child(1)
 {
-    display: inline;
-    color: white; 
-    font-size: 17px;
+    background: none;
+    border: none;
+    border: 2px solid #2A9D8F;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 2s;
 }
-.span-home
+button:nth-child(1):hover{
+  background-color: #2A9D8F;
+}
+
+button:nth-child(2)
 {
-    color: white;
-    font-size: 12px;
+    background: none;
+    border: none;
+    border: 2px solid #264653;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 2s;
 }
-.h1-home 
+button:nth-child(2):hover{
+    background-color: #264653;
+  }
+button:nth-child(3)
 {
-    font-family: 'Poppins' , sans-serif;
-    font-size: 13px;
-    width: 12px;
-    padding-left: 2px;
+    background: none;
+    border: none;
+    border: 2px solid #E76F51;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 2s;
 }
-.span-home
-{
-    font-family: 'Poppins' , sans-serif;
-    font-size: 12px;  
-    margin-left: 1px;
-    opacity: 0.4;
-}
-.calendar
-    {
-       color: white;
-       font-size: 20px;
-       font-family: 'Poppins';
-       border-left: red solid 3px;
-        
-    }
-    .item
-    {
-        display: grid;
-        grid-template-columns:8vw 8vw 8vw 1fr;
-        margin-left:36px;
-        width: 100px;  
-        
-    }
-    .sub-home
-    {
-        display: grid;
-        grid-template-columns: 155px 157px 20px;
-        margin-left: 37px;   
-    }
+button:nth-child(3):hover{
+    background-color: #E76F51;
+  }

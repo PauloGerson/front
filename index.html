@@ -1,86 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/resposive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/main.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="compras"> 
+        <form action="">
+        <label for="">alguma coisa</label>
+        <input id="cadastro" type="text">
 
-    <div id="page-home">    
-        <header class="header">
-            <div class="icon-bar"><i class="fa fa-bars " aria-hidden="true"></i></div>
-                   
-            <h1>animes</h1>
-                 <nav class="navegacao">
-                    <li><a href="">Animes</a></li>
-                    <li><a href="">Animes</a></li>
-                    <li><a href="">Animes</a></li>
-                    <li><a href="">Animes</a></li>
-                    <li><a href="">Animes</a></li>
-                 </nav> 
-                 <form action="" class="pesquisa">
-                    <input type="search" id="texto" placeholder="Pesquisar">
-                     <img src="IMG/pesquisar.png" class="btn" alt="">
-                </form>
-                <!--<div class="search-box">
-                    <input  class="search-txt" type="text" name="" placeholder="Pesquisar">
-                   
-                </div>-->
-          
-        </header>
-        
+        <label for="">alguma coisa2</label>
+        <input type="text">
 
-        <!--Poster Principais-->
-    
-        <main >
-            <h1 class="calendar">Caledario de hoje</h1> 
+    <select name="quantidade" id="quantidade">
+        <option value="1">1</option>
+        <option value="1">2</option>
+        <option value="1">3</option>
+        <option value="1">4</option>
+        <option value="1">5</option>
 
-           <!-- Apresentaçao do calendario -->
-            <div class="item-container">
-                <div class="item">
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div> 
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>   
-            </div>      
-        
-            <div class="sub-home">
-                <h1 class="h1-home"> Naruto</h1>
-                <h1 class="h1-home"> Naruto</h1>
-                <h1 class="h1-home"> Naruto</h1>
-               
+    </select>
+    </form>
 
-                <span class="span-home">2019</span>         
-                <span class="span-home">2019</span>
-                <span class="span-home">2019</span>
-                
-            </div>
-            <!-- Apresentaçao da segunda sessão -->
-            <div class="item">
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>
-                <div class="img1-home"><img class="poster" src="IMG/poster1.jpg" alt=""></div>     
-            </div>
-
-            <div class="sub-home">
-                <h1 class="h1-home"> Naruto</h1>
-                <h1 class="h1-home"> Naruto</h1>
-                <h1 class="h1-home"> Naruto</h1>
-               
-
-                <span class="span-home">2019</span>         
-                <span class="span-home">2019</span>
-                <span class="span-home">2019</span>
-                
-            </div>
-        </div>
-        </main>
-      
+    <div class="btn">
+        <button onclick="cad()">Cadastrar</button>
+        <button>Limpar</button>
+        <button>reset</button>
     </div>
-
+</div>
+    <script src="script/script.js"></script>
 </body>
 </html>
